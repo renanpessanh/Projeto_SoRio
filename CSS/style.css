@@ -19,7 +19,7 @@ a {
   justify-content: space-evenly;
   position: absolute;
   width: 100%;
-  background: #0000002a;
+  background: #00000065;
   z-index: 1;
 }
 
@@ -45,7 +45,7 @@ ul li {
 }
 
 ul li .nav-a {
-  font-size: 16px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -57,9 +57,9 @@ ul li .nav-a {
   padding: 10px 30px;
 }
 .login-btn:hover {
-  background-color: #1474f1;
+  background-color: #006db2;
   color: #fff;
-  border: 1px solid #1474f1;
+  border: 1px solid #006db2;
 }
 
 .registro-btn {
@@ -69,9 +69,9 @@ ul li .nav-a {
   padding: 10px 30px;
 }
 .registro-btn:hover {
-  background-color: #1474f1;
+  background-color: #006db2;
   color: #fff;
-  border: 1px solid #1474f1;
+  border: 1px solid #006db2;
 }
 .fundo {
   display: flex;
@@ -113,8 +113,8 @@ ul li .nav-a {
 .opc {
   display: flex;
   justify-content: space-around;
-  background-color: #1474f1;
-  padding: 30px 0;
+  background-color: #4e97d1;
+  padding: 30px;
 }
 
 .foto-container {
@@ -123,7 +123,7 @@ ul li .nav-a {
   align-items: center;
   text-align: center;
   padding: 30px;
-  background-color: #1474f1;
+  background-color: #006db2;
   border-radius: 20px;
 }
 
@@ -142,11 +142,108 @@ ul li .nav-a {
   font-size: 30px;
 }
 .titulo2 {
-  background-color: #1474f1;
+  background-color: #4e97d1;
   color: #ffffff;
   font-size: 30px;
   font-family: "inter", "arial";
   text-align: center;
   padding-top: 50px;
   padding: 80px;
+}
+.topo-avaliacoes {
+  font-size: 40px;
+  padding: 50px;
+  color: #fff;
+  font-family: "inter", "arial";
+}
+.avaliacoes {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #006db2;
+}
+
+.avaliacao1 {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #4e97d1;
+  border-radius: 60px 60px 0 0;
+}
+.avaliacao2 {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #4e97d1;
+}
+.avaliacao3 {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #4e97d1;
+  border-radius: 0 0 60px 60px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info {
+  text-align: left;
+}
+
+.nome {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.comentario {
+  font-style: italic;
+  color: #ffffff;
+  font-size: 30px;
+}
+.classificacao {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.footer-content {
+  font-size: 20px;
+  color: #000000bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #006db2;
+}
+.logo2 {
+  background-color: #000000c5;
+  padding: 55px;
+  padding-left: 700px;
+  border-radius: 20px 0 0 20px;
+}
+.footer-copy {
+  font-size: bold;
+  padding: 79px;
+  padding-right: 600px;
+  border-radius: 0 20px 20px 0;
+  background-color: #000000c5;
+  color: #ffffff;
+  text-decoration: none;
+}
+.link-copy {
+  color: #fff;
 }
