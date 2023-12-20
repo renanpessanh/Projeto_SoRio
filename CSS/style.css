@@ -119,7 +119,7 @@ ul li .nav-a {
 
 .foto-container {
   display: flex;
-  flex-direction: column; /* Alinha texto abaixo da imagem */
+  flex-direction: column; 
   align-items: center;
   text-align: center;
   padding: 30px;
@@ -129,7 +129,7 @@ ul li .nav-a {
 
 .foto-container img {
   width: 100%;
-  border-radius: 20px 20px 0 0; /* Adiciona borda arredondada apenas no topo */
+  border-radius: 20px 20px 0 0; 
 }
 
 .foto-container a {
@@ -138,7 +138,7 @@ ul li .nav-a {
 }
 
 .foto-container p {
-  margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+  margin-top: 10px; 
   font-size: 30px;
 }
 .titulo2 {
